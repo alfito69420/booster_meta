@@ -24,6 +24,4 @@ public class Venta {
     @ManyToOne
     @JoinColumn(name = "idProducto")
     private Producto idProducto;
-
-
 }
